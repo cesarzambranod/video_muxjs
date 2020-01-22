@@ -1,12 +1,10 @@
 {
-  "name": "video_muxjs",
+  "name": "video_hlsjs",
   "version": "1.0.0",
-  "description": "Streaming video horus ejemplo",
+  "description": "Streaming hls",
   "main": "server.js",
   "engines": {},
   "dependencies": {
-    "express": "^4.17.1",
-    "mux.js": "^5.5.1"
   },
   "license": "UNLICENSED",
   "repository": {

@@ -7,7 +7,7 @@ router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-app.use(express.static(__dirname + '/asset/'));
+app.use(express.static(__dirname + '/'));
 //Store all JS and CSS in Scripts folder.
 
 app.use('/', router);
